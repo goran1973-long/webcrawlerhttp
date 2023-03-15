@@ -7,16 +7,17 @@
     "start": "node main.js",
     "test": "jest"
   },
-
   "repository": {
-     "type": "git",
-     "url": "git+https://github.com/goran1973-long/webcrawlerhttp.git"
+    "type": "git",
+    "url": "git+https://github.com/goran1973-long/webcrawlerhttp.git"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.5.0"
   },
-
-  "homepage": "https://github.com/goran1973-long/webcrawlerhttp#readme"
+  "homepage": "https://github.com/goran1973-long/webcrawlerhttp#readme",
+  "dependencies": {
+    "jsdom": "^21.1.0"
+  }
 }
